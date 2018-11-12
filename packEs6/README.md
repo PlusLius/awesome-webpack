@@ -35,12 +35,12 @@ module:{
 //.babelrc
 { 
     "presets":[ 
-        ["@babel/presets-env",{
-            "targets":{
+        ["@babel/preset-env",{
+            "targets":
                 browsers:["last 2 versions"]
             }
         }]
     ],  
-    "plugins":["transform-runtime"]       
+    "plugins":["@babel/transform-runtime"] //根据target的数据进行适当的转换
 }
 ```
