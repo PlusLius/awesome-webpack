@@ -41,7 +41,7 @@ module.exports = {
                         ident:'postcss',
                         plugins:[
                             // require('autoprefixer')(),
-                            require('postcss-cssnext')(),
+                            require('postcss-cssnext')(), //配置这个就可以用css的新语法
                         ]
                       }
                     },

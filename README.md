@@ -8,5 +8,6 @@
 - [x] 处理css文件
 - [x] 处理less,sass文件
 - [x] 处理postcss文件
-- [ ] js Tree-shaking
-- [ ] css Tree-shaking
+- [x] 提取css文件
+- [x] js Tree-shaking //webpack4已经自动做了
+- [x] css Tree-shaking
