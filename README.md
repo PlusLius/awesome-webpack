@@ -11,6 +11,6 @@
 - [x] 提取css文件
 - [x] js Tree-shaking //webpack4已经自动做了
 - [x] css Tree-shaking
-- [] 处理图片，文字资源
-- [] 处理第三js库
-- [] 处理html文件
+- [x] 处理图片，文字资源
+- [x] 处理第三js库
+- [ ] 处理html文件
