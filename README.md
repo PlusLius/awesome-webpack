@@ -17,11 +17,11 @@
 - [x] 处理html文件
 
 ### 开发环境搭建
-- [ ] watch mode
-- [ ] webpack dev server
-- [ ] 代理远程接口
-- [ ] 模块热更新
-- [ ] 开启sourcemap
-- [ ] 设置ESLint检测代码格式
+- [x] watch mode
+- [x] webpack dev server
+- [x] 代理远程接口
+- [x] 模块热更新
+- [x] 开启sourcemap
+- [x] 设置ESLint检测代码格式
 - [ ] 生成环境和开发环境搭建
 - [ ] 使用middleware搭建开发环境

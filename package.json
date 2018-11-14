@@ -14,7 +14,9 @@
     "shakingcss": "webpack --config ./cssShaking/webpack.config.js",
     "packimg": "webpack --config ./packImg/webpack.config.js",
     "packlib": "webpack --config ./packLib/webpack.config.js",
-    "packhtml": "webpack --config ./packHtml/webpack.config.js"
+    "packhtml": "webpack --config ./packHtml/webpack.config.js",
+    "devwatch": "webpack  --config ./devConfig/watch/webpack.config.js -w --progess --display-reasons --color",
+    "devserver": "webpack-dev-server  --config ./devConfig/devServer/webpack.config.js --open"
   },
   "repository": {
     "type": "git",
@@ -37,8 +39,18 @@
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.4",
     "babel-polyfill": "^6.26.0",
+    "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^1.0.1",
     "cssnano": "^4.1.7",
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-html": "^5.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "^2.0.0",
     "glob-all": "^3.1.0",
@@ -62,6 +74,7 @@
     "typings": "^2.1.1",
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
