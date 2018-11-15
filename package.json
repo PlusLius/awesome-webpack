@@ -16,7 +16,9 @@
     "packlib": "webpack --config ./packLib/webpack.config.js",
     "packhtml": "webpack --config ./packHtml/webpack.config.js",
     "devwatch": "webpack  --config ./devConfig/watch/webpack.config.js -w --progess --display-reasons --color",
-    "devserver": "webpack-dev-server  --config ./devConfig/devServer/webpack.config.js --open"
+    "devserver": "webpack-dev-server  --config ./devConfig/devServer/webpack.config.js --open",
+    "merge:serv": "webpack-dev-server --env development  --config ./devConfig/merge/build/webpack.common.conf.js --open",
+    "merge:build": "webpack --env production --config ./devConfig/merge/build/webpack.common.conf.js"
   },
   "repository": {
     "type": "git",
@@ -75,6 +77,7 @@
     "url-loader": "^1.1.2",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.10"
+    "webpack-dev-server": "^3.1.10",
+    "webpack-merge": "^4.1.4"
   }
 }
