@@ -4,8 +4,8 @@
 - [x] 打包js
 - [x] 打包ES6
 - [x] 打包typescript
-- [ ] 打包公共代码
-- [ ] 代码分隔和懒加载
+- [x] 打包公共代码  //webpack4 splitChunks minSize控制
+- [x] 代码分隔和懒加载 //webpack4 import
 - [x] 处理css文件
 - [x] 处理less,sass文件
 - [x] 处理postcss文件
@@ -25,3 +25,10 @@
 - [x] 设置ESLint检测代码格式
 - [x] 生成环境和开发环境搭建
 - [x] 使用middleware搭建开发环境
+
+### webpack优化
+
+- [ ] 分析打包结果
+- [ ] 优化打包速度
+- [ ] 长缓存优化
+- [ ] webpack多页应用

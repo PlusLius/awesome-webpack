@@ -6,7 +6,7 @@ const app = express()
 const port = 3000;
 
 const webpackDevMiddleware = require('webpack-dev-middleware');
-const webpackHotMiddleware = require('webpack-hot-middleware')
+const webpackHotMiddleware = require('webpack-hot-middlweware')
 const proxyMiddleware = require('http-proxy-middleware');
 const historyApiFallback = require('connect-history-api-fallback');
 
