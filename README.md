@@ -24,4 +24,4 @@
 - [x] 开启sourcemap
 - [x] 设置ESLint检测代码格式
 - [x] 生成环境和开发环境搭建
-- [ ] 使用middleware搭建开发环境
+- [x] 使用middleware搭建开发环境

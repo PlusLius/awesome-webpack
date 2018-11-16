@@ -1,8 +1,9 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const cleanWebpackPlugin = require('clean-webpack-plugin');
-const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
 const webpack = require('webpack')
+const ExtractTextWebpackPlugin = require('extract-text-webpack-plugin')
+
 
 module.exports = {
     context: __dirname,
